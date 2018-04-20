@@ -70,6 +70,6 @@ Y = input("sequence 2: ")
 
 c, b = LCS_matrices(X, Y)
 print("Longest common subsequence length: ", LCS_len(c))
-print("Longest common subsequence: ", LCS_construct('ABBCE', 'ACE', b))
+print("Longest common subsequence: ", LCS_construct(X, Y, b))
 
 
